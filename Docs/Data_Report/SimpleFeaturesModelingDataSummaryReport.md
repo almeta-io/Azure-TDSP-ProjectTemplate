@@ -23,11 +23,15 @@ The set of features that were taken into consideration:<br>
 
 It’s obvious that there are many words and phrases commonlyused in a clickbait headline e.g. :<br>
 <br>
+
 **"أسباب"**<br>
+
 7 _اسباب_ هامه للقيام بالتمارين الرياضية اثناء فتره الحمل<br>
 6 _اسباب_ تجعل من جزيرة ميكونوس في اليونان وجهتك الافضل لقضاء عطله عيد فطر صيفيه مميزه<br>
 العمل من المنزل مفيد لصحتك.. اليك _الأسباب_<br>
+
 **"شاهد"**<br>
+
 _شاهد_ ماذا يأكل البشر كل يوم حول  العالم!<br>
 _شاهد_ ماذا فعل اعضاء المنتخب الجزائري عقب فوزهم بكاس الامم الأفريقية.. «صوره مؤثره تشعل مواقع التواصل الاجتماعي<br>
 عاجل... مفاجأة صادمه للجميع.. هذا ما حدث قبل قليل في السعودية بشأن الداعية سلمان العودة.. (_شاهد_ الصورة)<br>
@@ -35,6 +39,7 @@ _شاهد_ ماذا فعل اعضاء المنتخب الجزائري عقب ف�
 **Common words/phrases determination**:<br>
 <br>
 We’ll use our training dataset to discover these words and phrases. Following are word-couldsvisualizethe densitiesof frequent words (1-gram) and phrases (2 -gram, 3-gram, 4-gram) in our clickbait headlines in the training dataset.<br>
+
 **Frequent 1-gram**:
 <br>
 ![](img/modeling/simple/comm_1_gram.png)
@@ -51,8 +56,10 @@ We’ll use our training dataset to discover these words and phrases. Following 
 <br>
 ![](img/modeling/simple/comm_4_gram.png)
 <br>
+
 We are not going to use common words from the non-clickbait headlines as features, because this type of headlines has unlimited variations which are so hard to be covered in the training dataset, so using this kind of features may cause problems in the generalization on the real-world examples. However, we’re going to show the frequent words in the non-clickbait headlines as a part of the data exploration process. Following is a word-could visualizes the densities of the frequent words (1-gram) in our non-clickbait headlines in the training dataset.
 <br>
+
 **Frequent 1-gram**:
 <br>
 ![](img/modeling/simple/uncomm_1_gram.png)
