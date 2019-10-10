@@ -20,7 +20,7 @@ Then, the headlines are vectorized using a pre-trained word2vec model. After all
 * Test dataset [report](https://github.com/almeta-io/Azure-TDSP-ProjectTemplate/blob/clickbait_doc/Docs/Data_Report/TestDataSummaryReport.md).
 
 ## Features
-Features are described and evaluated in the modeling dataset [report]().
+Features are described and evaluated in the modeling dataset [report](https://github.com/almeta-io/Azure-TDSP-ProjectTemplate/blob/clickbait_doc/Docs/Data_Report/W2VModelingDataSummaryReport.md).
 
 ## Algorithm
 We used the sklearn implementation of [Gradient Boosting Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html) with the following hyper-parameters:
