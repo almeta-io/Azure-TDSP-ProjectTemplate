@@ -90,9 +90,13 @@ As all our features values are binary or scaled to the range [0, 1], the trained
 * Negative sign means toward the negative class (non-clickbait).
 Following are the features weights according to out model:<br>
 <br>
-+ 2.3 COMM – 0.2 PUNC_COUNT + 2.5 QS_MARK + 1.8 COMMA – 0.8 QT_MARK + 1.8 BRACKET + 3.0 EXC_MARK + 1.5 FULL_STOP + 0.7 DASH + 1.0 COLON + 2.0 NUM_FIRST + 4.4 NUM_COUNT + 5.0 DEMON_PRON + 1.4 NEG_WORDS - 0.7 Q_WORDS + 3.9 REL_PRON + 1.2 TIME_ADV + 3.3 SEC_PER_PRON + 4.9 SURPRISE<br>
+
+__+ 2.3__ COMM __– 0.2__ PUNC_COUNT __+ 2.5__ QS_MARK __+ 1.8__ COMMA __– 0.8__ QT_MARK __+ 1.8__ BRACKET __+ 3.0__ EXC_MARK __+ 1.5__ FULL_STOP __+ 0.7__ DASH __+ 1.0__ COLON __+ 2.0__ NUM_FIRST __+ 4.4__ NUM_COUNT __+ 5.0__ DEMON_PRON __+ 1.4__ NEG_WORDS __- 0.7__ Q_WORDS __+ 3.9__ REL_PRON __+ 1.2__ TIME_ADV __+ 3.3__ SEC_PER_PRON __+ 4.9__ SURPRISE<br>
+
 <br>
-Where:<br><br>
+
+__Where__:<br><br>
+
 __COMM__ : The presence of one of the common word that are used in the context of clickbait headlines, from a pre-defined list.<br>
 __PUNC_COUNT__ : The number of the punctuation in the headline.<br>
 __QS_MARK__ : The presence of a question mark.<br>
