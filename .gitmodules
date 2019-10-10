@@ -1,0 +1,3 @@
+[submodule "Code/almeta-clickbait"]
+	path = Code/almeta-clickbait
+	url = https://github.com/almeta-io/almeta-clickbait.git
