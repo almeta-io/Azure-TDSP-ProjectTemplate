@@ -126,23 +126,29 @@ To investigate the presence of these words-types in the training set we follow t
 2. For each words-type we find its words cluster.
 3. We calculate the rate of the headlines that contain words from this cluster in both clickbait and not-clickbait classes in the training set.<br>
 The following graph shows the rates of the words-types in both classes in the training set:<br>
-<br>
+
 ![](img/w2v/topic_per_class.png)
-<br>
+
 _Person words-type in the training set (clickbait class)_:<br>
+
 تعرفوا على سبب اكل هذه __طفله__ لسجاد والرمل !<br>
 بالفيديو : لحظه انقاذ __فتاه__ حاولت الانتحار من اعلى مبنى<br>
 صور __شاب__ يحول نفسه الى اميرات ديزني بمكياج يستحيل ان يكتشفه احد<br>
+
 _Cars words-type in the training set (clickbait class)_:<br>
+
 صور : سعودي يحصل على سياره __تويوتا__ هديه .. تعرف على السبب<br>
 فيديو __سوبارو__ معدله تخرج من حفره عميقه بطريقه مذهله !<br>
 شاهد بالصوره ... عمر البشير بملابس بيضاء وسياره " __لاند كروزر__ "... اول ظهور للبشير منذ الاطاحه به<br>
+
 _Art words-type in the training set (clickbait class)_:<br>
+
 شمبانزي بدرجه فنان __يعزف__ على __الجيتار__ بطريقه رائعه<br>
 بالفيديو : اب يشارك طفلته __رقصه__ مجنونه برفقه المكنسه<br>
 رد فعل مفاجئ لانثى اسد لم يعجبها __عزف__ احد الزوار<br>
-<br>
+
 To conclude, the model may be affected by the domains of the articles that was trained on, to overcome these errors we can add more not-clickbait headlines that include these words-types.
 <br>
+
 P.S. maybe there are other domains that are not presented in our test data.
 
