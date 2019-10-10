@@ -50,3 +50,4 @@ As we are concerned the most in the title of the article for this task, we perfo
 3. Strip the small letters e.g. ۜ
 4. Normalize Alefs e.g. أ -> ا
 5. Normalize Teh Marbutah e.g. ة -> ه
+6. Segmenting the punctuation and the numbers from the text.
