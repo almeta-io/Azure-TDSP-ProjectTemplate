@@ -11,6 +11,7 @@ We depended on the headlines of the articles in developing our solution. Each he
 6. Replace Alef Maksura with Yeh
 7. Delete the repeated characters in the words 
 8. Segmenting the punctuation and the numbers from the text.<br>
+
 Then, the headlines are vectorized using a pre-trained word2vec model. After all, the vectors are provided to the classification algorithm to learn how to distinguish between clickbait and not clickbait.
 
 ## Data
