@@ -10,12 +10,13 @@ We depended on the headlines of the articles in developing our solution. Each he
 5. Normalize Teh Marbutah e.g. ة -> ه
 6. Replace Alef Maksura with Yeh
 7. Delete the repeated characters in the words 
+8. Segmenting the punctuation and the numbers from the text.<br>
 Then, the headlines are vectorized using a pre-trained word2vec model. After all, the vectors are provided to the classification algorithm to learn how to distinguish between clickbait and not clickbait.
 
 ## Data
-* Source preprocessed dataset [report]().
-* Modeling dataset [report]().
-* Test dataset [report]().
+* Source preprocessed dataset [report](https://github.com/almeta-io/Azure-TDSP-ProjectTemplate/blob/clickbait_doc/Docs/Data_Report/PreprocessedDataSummaryReport.md).
+* Modeling dataset [report](https://github.com/almeta-io/Azure-TDSP-ProjectTemplate/blob/clickbait_doc/Docs/Data_Report/W2VModelingDataSummaryReport.md).
+* Test dataset [report](https://github.com/almeta-io/Azure-TDSP-ProjectTemplate/blob/clickbait_doc/Docs/Data_Report/TestDataSummaryReport.md).
 
 ## Features
 Features are described and evaluated in the modeling dataset [report]().
