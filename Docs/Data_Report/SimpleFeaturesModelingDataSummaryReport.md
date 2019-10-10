@@ -244,7 +244,7 @@ The following graphs show statistics related to the emotional words present in t
 Obviously, the clickbait headlines contain more emotional words and the “surprise” emotion plays the biggest role in distinguishing the clickbait type.
 <br>
 <br>
-The lexicon that was used to find the emotional words id downloadable from [here](https://github.com/motazsaad/emotion-lexicon/tree/master/arb).
+The lexicon that was used to find the emotional words downloadable from [here](https://github.com/motazsaad/emotion-lexicon/tree/master/arb).
 
 
 
