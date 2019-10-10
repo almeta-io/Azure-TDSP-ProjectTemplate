@@ -19,14 +19,15 @@ We depended on the headlines of the articles in developing our solution. Each he
 3. Strip the small letters e.g. ۜ
 4. Normalize Alefs e.g. أ -> ا
 5. Normalize Teh Marbutah e.g. ة -> ه
+6. Segmenting the punctuation and the numbers from the text.
 Then, the headlines are passed to features extractors that represent each headline with a vector of simple features. After all, the features vectors are provided to the classification algorithm to learn how to distinguish between clickbait and not clickbait.<br>
 <br>
 To reduce the effect of full-stop in raising up the probability toward the positive class -which was remarked during previous experiments- we deleted the full-stops from a sample of clickbait headlines in the training dataset that actually contain full-stops.
 
 ## Data
-* Source preprocessed dataset [report]().
-* Modeling dataset [report]().
-* Test dataset [report]().
+* Source preprocessed dataset [report](https://github.com/almeta-io/Azure-TDSP-ProjectTemplate/blob/clickbait_doc/Docs/Data_Report/PreprocessedDataSummaryReport.md).
+* Modeling dataset [report](https://github.com/almeta-io/Azure-TDSP-ProjectTemplate/blob/clickbait_doc/Docs/Data_Report/SimpleFeaturesModelingDataSummaryReport.md).
+* Test dataset [report](https://github.com/almeta-io/Azure-TDSP-ProjectTemplate/blob/clickbait_doc/Docs/Data_Report/TestDataSummaryReport.md).
 
 ## Features
 The set of features that were taken into consideration:<br>
